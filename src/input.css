@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'), url(.\fonts\Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy-Medium'), url(.\fonts\Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: local('Gilroy-Semibold'), url(.\fonts\Gilroy-Semibold.ttf);
+}
+
+
+@font-face {
+    font-family: 'NeueMachina-Bold';
+    src: local('NeueMachina-Bold'), url(.\fonts\NeueMachina-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'NeueMachina-Ultrabold';
+    src: local('NeueMachina-Ultrabold'), url(.\fonts\NeueMachina-Ultrabold.ttf);
+}
+
