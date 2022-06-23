@@ -558,6 +558,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .ml-\[270px\] {
   margin-left: 270px;
 }
@@ -876,5 +880,19 @@ video {
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(168 119 211 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:visible {
+    visibility: visible;
+  }
+
+  .md\:ml-\[270px\] {
+    margin-left: 270px;
+  }
+
+  .md\:ml-\[170px\] {
+    margin-left: 170px;
+  }
 }
 
